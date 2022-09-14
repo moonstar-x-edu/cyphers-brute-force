@@ -5,3 +5,7 @@
 ## Cyphers Implemented:
 
 * Caesar Cypher
+* Mono-alphabetic Cypher
+* Playfair Cypher
+* Hill Cypher
+* Vigenère Cypher
