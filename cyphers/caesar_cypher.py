@@ -30,12 +30,13 @@ def brute_force(message: str) -> list:
 
 def main():
     original_message = sys.argv[1]
+    key = 5
     print(f'Original message: {original_message}')
 
     cleaned_message = clean_message(original_message)
     print(f'Clean message: {cleaned_message}')
 
-    encoded = encode(cleaned_message, 5)
+    encoded = encode(cleaned_message, key)
     print(f'Encoded message: {encoded}')
 
     guesses = brute_force(encoded)
